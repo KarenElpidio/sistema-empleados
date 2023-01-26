@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-empleado',
@@ -10,8 +10,17 @@ export class EmpleadoComponent {
 
 nombre="Juan"
 apellido="Marrubash"
-edad= 25;
-empresa="Telecom"
+edad= 19;
 
+habilitacionCuadro= false; 
+userRegistrado= false;
 
+getRegistroUsuario(){
+  this.userRegistrado = true;
+}
+
+constructor() {}
+ngInit(): void {
+
+}
 }
