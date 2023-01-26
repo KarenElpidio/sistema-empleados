@@ -5,6 +5,13 @@ import { Component } from '@angular/core';
   templateUrl: './empleado.component.html',
   styleUrls: ['./empleado.component.css']
 })
+
 export class EmpleadoComponent {
+
+nombre="Juan"
+apellido="Marrubash"
+edad= 25;
+empresa="Telecom"
+
 
 }
