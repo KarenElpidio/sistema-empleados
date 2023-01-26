@@ -14,6 +14,7 @@ edad= 19;
 habilitacionCuadro= false; 
 userRegistrado= false;
 textoDeRegistro="No hay nadie registrado";
+empresa = "Google";
 
 getRegistroUsuario(){
   this.userRegistrado = false;
